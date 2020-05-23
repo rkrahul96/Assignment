@@ -1,0 +1,26 @@
+Run the below cmds in the terminal
+$ sudo apt update
+$ sudo apt install
+$ sudo install pip 
+$ sudo pip install flask
+
+Run 
+$ python app.py
+to run flask --- Webserver on local IP:5000 (port- 5000)
+
+Imp note 
+*Dont alter the directories *
+/flask
+      /app.py
+      /templates
+                /index.html
+      /static
+             /css
+                /styles.css
+             /js
+             /images 
+             /plugins
+             
+             
+
+
