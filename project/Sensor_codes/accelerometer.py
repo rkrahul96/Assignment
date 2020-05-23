@@ -9,7 +9,7 @@ import math
 import urllib
 
 host = "alx12a5wtaacx-ats.iot.us-east-1.amazonaws.com"
-certPath = "/home/rahul/IOT/trial/new-keys/"
+certPath = "/home/rahul/project/new-keys/"
 clientId = "RaspberryPi"
 topic = "raspberrypi/data"
 
