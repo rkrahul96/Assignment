@@ -1,0 +1,18 @@
+ download the Python SDK form below link:
+
+https://s3.amazonaws.com/aws-iot-device-sdk-python/aws-iot-device-sdk-python-latest.zip
+
+Unzip the package and install the SDK by running the setup.py.
+
+sudo python setup.py install
+ 
+ The steps to do so
+
+    1-Clone this Repository download and unzip SDK files here in Project directory .
+    2-Copy the AWSIoTPythonSDK directory which you can find in the downloaded SDK to the this  (sensor_codes) directory.
+    3-Create a new directory called trial-cert in this directory.
+    - Copy the AWS Root CA certificate to this directory. (I renamed it as root-CA.pem)
+    - Copy the certificate file which we associated with the thing, to this directory. (I renamed it as iot-cert.pem.crt)
+    - Copy the private key file which we associated with the thing, to this directory. (I renamed it as private-key.pem.key)
+    4-Run cmds python dht.py accelerometer.py sw420_vib.py hcsr04_py  in different terminals to generate sensors datas and post them to AWS Iot (Mqtt)->AWS DynamoDB->AWS API Gateway.
+    
